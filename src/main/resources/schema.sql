@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS incident (
+      id INTEGER  PRIMARY KEY AUTO_INCREMENT,
+      title VARCHAR(255) NOT NULL,
+      description TEXT NOT NULL,
+      severity VARCHAR(10),
+      reported_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
