@@ -24,7 +24,14 @@ It fulfills the requirements of the **HumanChain Backend Intern Take-Home Assign
       CREATE DATABASE ai_safety;
       ```
 
-2. **Configure `application.properties`**
+
+
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/vk28122812/ai-safety-incident-log.git
+   cd ai-safety-incident-log
+   ```
+3. **Configure `application.properties`**
    ```properties
    # Database Connection 
     spring.application.name=ai-safety
@@ -33,12 +40,6 @@ It fulfills the requirements of the **HumanChain Backend Intern Take-Home Assign
     spring.datasource.password= 'your database password'
     spring.datasource.url=jdbc:mysql://localhost:3306/ai_safety
     spring.sql.init.mode=always
-   ```
-
-3. **Clone the Repository**
-   ```bash
-   git clone https://github.com/vk28122812/ai-safety-incident-log.git
-   cd ai-safety-incident-log
    ```
 
 4. **Build and Run**
